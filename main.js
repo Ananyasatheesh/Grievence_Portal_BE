@@ -8,6 +8,8 @@ const PORT = 5000;
 
 app.use(express.json());
 
+app.use(cors());
+
 connectDB();
 
 app.use("/grievance", grievance);
