@@ -1,0 +1,10 @@
+{
+  "name": "grievence_portal_be",
+  "version": "1.0.0",
+  "description": "Backend for UI",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}
