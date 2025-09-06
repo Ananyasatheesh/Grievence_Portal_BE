@@ -2,6 +2,7 @@ const express = require("express");
 const connectDB = require("./db/connect");
 const grievance = require('./routes/grievance/index')
 const otp = require("./routes/otp/index")
+const cors = require('cors')
 
 const app = express();
 const PORT = 5000;
