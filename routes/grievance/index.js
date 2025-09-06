@@ -10,6 +10,7 @@ router.post("/raise", async (req, res) => {
             title,
             grievance,
             department,
+            imageURL,
             latitude,
             longitude,
             address
@@ -21,6 +22,7 @@ router.post("/raise", async (req, res) => {
             title,
             grievance,
             department,
+            imageURL,
             latitude,
             longitude,
             address
